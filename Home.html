@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Table with a Header, Footer and Body</title>
+    <style>
+
+    body{
+    	background-color:#163063;
+    }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+             background-color:#adb0b8;
+
+
+        }
+        table, th, td {
+            border: 3px solid black;
+
+
+        }
+        th, td {
+          padding: 10px;
+          width: 20px;
+          text-align: center;
+
+        }
+          canvas{
+          	background-color: #94b9e3;
+          }
+
+
+
+    </style>
+</head>
+<body>
+
+<br>
+
+<canvas id="myCanvas" width="1650px" height="150px"
+style="border:3px solid #d3d3d3;">
+
+</canvas>
+
+<script>
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.font = "90px Comic Sans MS";
+
+ctx.strokeText("Welcome to Binance cryptocurrency",120,100);
+
+</script>
+
+
+<iframe src="Lab1.html" style="height:800px;width:100%" title="Iframe Example"style="border:1px solid black;"></iframe>
+
+
+<center>
+
+<img src="map.jpeg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.binance.com/en/trade/BTC_USDT?theme=dark&type=spot">
+
+
+</map>
+
+
+</center>
+
+
+	<center><caption><h1><span style="color:white;"> Top Three cryptocurrency in 2021</span></h1></caption></center>
+  <center>  <table>
+    <thead>
+        <tr>
+            <th>Name of the Cryptocurrency</th>
+            <th>Original author(s)</th>
+            <th>Description</th>
+
+
+        </tr>
+
+        <tr>
+            <th rowspan="2">Bitcoin</th>
+            <th rowspan="2">Satoshi Nakamoto</th>
+            <td>Bitcoin (₿) is a decentralized digital currency,</td>
+        </tr>
+        <tr>
+            <td>Transactions are verified by <span style="color:green;">network nodes </span>through cryptography and recorded in a public distributed ledger called a blockchain.</td>
+
+
+        <tr>
+            <th rowspan="2">Ethereum</th>
+            <th rowspan="2">Vitalik Buterin</th>
+            <td>Ethereum is a decentralized, <span style="color:green;">open-source blockchain </span>with smart contract functionality.</td>
+        </tr>
+        <tr>
+            <td>Ethereum has established itself as the most actively used blockchain network, while its native token, ether, is now the second-largest cryptocurrency by both market capitalization and daily volume.</td>
+
+        <tr>
+            <th rowspan="2">Litecoin</th>
+            <th rowspan="2">Charlie Lee</th>
+            <td>Litecoin (LTC or Ł) is a peer-to-peer cryptocurrency and open-source software</td>
+        </tr>
+        <tr>
+            <td>Litecoin was an early bitcoin spinoff or altcoin, starting in October 2011</td>
+    </thead>
+    </table></center>
+</body>
+</html>
