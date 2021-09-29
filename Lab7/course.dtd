@@ -1,0 +1,15 @@
+<?xml version = "1.0"?>
+<!--student.dtd-a document type definition for the course.xml-->
+<!ELEMENT learning (student+)>
+<!ELEMENT student (name,address,course)>
+<!ELEMENT name (firstname,lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT address (street,city,email,phone,description)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT student (Cname)>
+<!ELEMENT Cname (#PCDATA)>
+<!ELEMENT description (#PCDATA)>

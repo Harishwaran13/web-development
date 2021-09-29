@@ -1,0 +1,74 @@
+<?xml version = "1.0"?>
+
+<!DOCTYPE learning SYSTEM "course.dtd">
+<learning>
+<student>
+<name>
+<firstname> Harishwaran </firstname>
+<lastname> Sakthivel  </lastname>
+</name>
+<address>
+<street> Min nagar</street>
+<city> Perambalur  </city>
+<email> harish@gmail.com   </email>
+<phone> 7397252998</phone>
+
+</address>
+<fees>
+<Cname> Course Fees paid
+
+</Cname>
+</fees>
+</student>
+
+<student>
+<name>
+<firstname> Abinaya  </firstname>
+<lastname> kumar </lastname>
+</name>
+<address>
+<street> 5th cross main road </street>
+<city> Trichy </city>
+<email> Abinaya@gmail.com</email>
+<phone> 9257413658 </phone>
+</address>
+<fees>
+<Cname>Course Fees not paid
+</Cname>
+</fees>
+</student>
+
+<student>
+<name>
+<firstname> yashashwini </firstname>
+<lastname> MP </lastname>
+</name>
+<address>
+<street> 9th cross main road </street>
+<city> bangalore </city>
+<email>yashashwini@gmail.com</email>
+<phone> 858963247 </phone>
+</address>
+<fees>
+<Cname> Course Fees paid
+</Cname>
+</fees>
+</student>
+
+<student>
+<name>
+<firstname> Nishchitha </firstname>
+<lastname> LN </lastname>
+</name>
+<address>
+<street> 6th main Road </street>
+<city> banglore </city>
+<email>  Nishchitha@gmai.com</email>
+<phone>  758963247 </phone>
+</address>
+<fees>
+<Cname> Course Fees paid
+</Cname>
+</fees>
+</student>
+</learning>
